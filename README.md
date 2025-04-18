@@ -19,7 +19,7 @@ HelpWise AI is an AI-powered chatbot that answers product-related questions abou
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-##🧱 System Architecture
+## 🧱 System Architecture
 Frontend: Streamlit for chat UI
 
 Backend: LangChain with Flan-T5 from HuggingFace
@@ -37,13 +37,13 @@ Uses semantic search to match user queries with relevant docs
 LLM (Flan-T5) generates concise answers from retrieved content
 
 Context history enables natural follow-up conversations
-##🚫 Limitations
+## 🚫 Limitations
 Not connected to live APIs or databases
 
 Limited fallback handling (basic response for unknowns)
 
 Static knowledge base (manually updated)
-##🔮 Future Improvements
+## 🔮 Future Improvements
 Add feedback mechanism (Was this helpful?)
 
 Admin dashboard for analytics
